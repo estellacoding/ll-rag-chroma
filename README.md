@@ -5,6 +5,8 @@
 - 檢索 [MetaGPT](https://arxiv.org/abs/2308.00352) 文件
 - 實作 LangChain RAG
 - 實作 LlamaIndex RAG
+- OpenAI Embedding 將文本向量化
+- OpenAI GPT 負責生成最終的回答
 - 整合 Chroma 資料庫
 
 # 處理流程
