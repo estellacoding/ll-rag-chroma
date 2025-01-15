@@ -15,6 +15,7 @@
 - 向量化: 使用嵌入模型將文本轉換為向量
 - 向量資料庫: 建立向量索引
 - 儲存: 儲存索引和向量，便於後續使用
+- 生成回應: GPT根據查詢＋檢索上下文生成最終回答
 
 # LangChain vs. LlamaIndex
 |步驟|LangChain|LlamaIndex|
