@@ -7,7 +7,7 @@
 - 實作 LlamaIndex RAG
 - OpenAI Embedding 將文本向量化
 - 整合 Chroma 向量資料庫
-- OpenAI GPT 負責生成最終的回答
+- OpenAI GPT 生成最終的回答
 
 # 處理流程
 - 文本讀取
