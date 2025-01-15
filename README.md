@@ -3,9 +3,9 @@
 
 # 主要功能
 - 檢索 [MetaGPT](https://arxiv.org/abs/2308.00352) 文件
-- LangChain RAG 實作
-- LlamaIndex RAG 實作
-- Chroma 資料庫整合
+- 實作 LangChain RAG
+- 實作 LlamaIndex RAG
+- 整合 Chroma 資料庫
 
 # 處理流程
 - 文本讀取
