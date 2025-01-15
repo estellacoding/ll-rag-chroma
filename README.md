@@ -17,8 +17,8 @@
 # LangChain vs. LlamaIndex
 |步驟|LangChain|LlamaIndex|
 |-|-|-|
-|文本讀取| `DocumentLoader`(如 `PyPDFLoader`)從來源讀取文本。| `SimpleDirectoryReader` 從資料夾中讀取文件。|
-|文本分割| 使用 `TextSplitter`(如`RecursiveCharacterTextSplitter`)分割文本為較小片段(chunk)。| 自動默認 `RecursiveTextSplitter`。|
-|向量化| 使用嵌入模型(如`OpenAIEmbeddings`)將文本轉換為向量。| 使用嵌入模型(如`OpenAIEmbeddings`)。|
-|向量資料庫| `VectorstoreIndexCreator` 自動完成文本分割、向量化、索引建立和向量資料庫的設定。| 使用 `VectorStoreIndex`　更靈活配置步驟。|
-|儲存| 使用 `Chroma` 的 `persist_directory` 儲存索引和向量資料庫。| 使用 `ChromaVectorStore`。|
+|文本讀取|`DocumentLoader`(如`PyPDFLoader`)從來源讀取文本。|`SimpleDirectoryReader`從資料夾中讀取文件。|
+|文本分割|使用 `TextSplitter`(如`RecursiveCharacterTextSplitter`)分割文本為較小片段(chunk)。|自動默認 `RecursiveTextSplitter`。|
+|向量化|使用嵌入模型(如`OpenAIEmbeddings`)將文本轉換為向量。|使用嵌入模型(如`OpenAIEmbeddings`)。|
+|向量資料庫|`VectorstoreIndexCreator`自動完成文本分割、向量化、索引建立和向量資料庫的設定。|使用`VectorStoreIndex`更靈活配置步驟。|
+|儲存| 使用`Chroma`的`persist_directory`儲存索引和向量資料庫。| 使用`ChromaVectorStore`。|
