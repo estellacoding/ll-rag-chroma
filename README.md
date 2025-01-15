@@ -1,4 +1,4 @@
-# RAG 實作: LangChain + LlamaIndex
+# RAG 實作: LangChain vs. LlamaIndex
 本專案用 LangChain 和 LlamaIndex，實現檢索生成系統(Retrieval Augmented Generation, RAG)，結合 OpenAI 嵌入模型與 Chroma 向量資料庫，將文件內容向量化，可高效檢索並準確回答與 MetaGPT 論文相關的問題。
 
 # 主要功能
