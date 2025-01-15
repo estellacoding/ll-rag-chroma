@@ -2,12 +2,9 @@
 本專案用 LangChain 和 LlamaIndex，實現檢索生成系統(Retrieval Augmented Generation, RAG)，結合 OpenAI 嵌入模型與 Chroma 向量資料庫，將文件內容向量化，可高效檢索並準確回答與 MetaGPT 論文相關的問題。
 
 # 主要功能
-- 檢索 [MetaGPT](https://arxiv.org/abs/2308.00352) 文件
 - 實作 LangChain RAG
 - 實作 LlamaIndex RAG
-- OpenAI Embedding 將文本向量化
-- 整合 Chroma 向量資料庫
-- OpenAI GPT 生成最終的回答
+- 檢索 [MetaGPT](https://arxiv.org/abs/2308.00352) 文件
 
 # 處理流程
 - 文本讀取
