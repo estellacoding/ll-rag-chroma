@@ -12,7 +12,7 @@
 - 文本分割: 分割文本為較小片段(chunk)
 - 向量化: 將文本轉換為向量
 - 向量資料庫: 建立索引和向量
-- 儲存: 儲存索引和向量，便於重用
+- 儲存: 儲存索引和向量，便於後續使用
 
 # LangChain vs. LlamaIndex
 |步驟|LangChain|LlamaIndex|
