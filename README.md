@@ -6,8 +6,8 @@
 - 實作 LangChain RAG
 - 實作 LlamaIndex RAG
 - OpenAI Embedding 將文本向量化
-- OpenAI GPT 負責生成最終的回答
 - 整合 Chroma 資料庫
+- OpenAI GPT 負責生成最終的回答
 
 # 處理流程
 - 文本讀取
