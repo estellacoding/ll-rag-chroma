@@ -21,4 +21,4 @@
 |分割|使用`TextSplitter`的`RecursiveCharacterTextSplitter`<br>分割文本為較小片段(chunk)|自動默認 `RecursiveTextSplitter`|
 |向量化|`OpenAIEmbeddings`將文本轉換為向量|`OpenAIEmbeddings`|
 |資料庫|`VectorstoreIndexCreator`<br>自動完成文本分割、向量化、<br>索引建立和向量資料庫的設定|使用`VectorStoreIndex`更靈活配置|
-|儲存|通過`persist_directory`儲存向量索引<br>指定`Chroma`為向量資料庫|使用`ChromaVectorStore`儲存向量索引|
+|儲存|通過`persist_directory`儲存向量索引，<br>且指定`Chroma`為向量資料庫|使用`ChromaVectorStore`儲存向量索引|
