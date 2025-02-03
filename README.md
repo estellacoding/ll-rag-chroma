@@ -17,7 +17,7 @@
 # LangChain vs. LlamaIndex
 |步驟|LangChain|LlamaIndex|
 |-|-|-|
-|讀取|使用`DocumentLoader`的`PyPDFLoader`<br>從來源讀取文本|使用`SimpleDirectoryReader`從資料夾中讀取文件|
+|讀取|使用`DocumentLoader`的`PyPDFLoader`<br>從來源讀取文本|使用`SimpleDirectoryReader`<br>從資料夾中讀取文件|
 |分割|使用`TextSplitter`的`RecursiveCharacterTextSplitter`<br>分割文本為較小片段(chunk)|自動默認 `RecursiveTextSplitter`|
 |向量化|`OpenAIEmbeddings`將文本轉換為向量|`OpenAIEmbeddings`|
 |設定|`VectorstoreIndexCreator`<br>自動完成文本分割、向量化、<br>索引建立和向量資料庫的設定|使用`VectorStoreIndex`配置向量索引|
